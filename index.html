@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header id="header" class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Delicious Bites</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero d-flex align-items-center justify-content-center">
+    <div class="text-center text-white">
+        <h1>Welcome to Delicious Bites</h1>
+        <p>Discover the amazing features of our product.</p>
+        <a href="#menu" class="btn btn-warning">Explore Menu</a>
+    </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="menu-section container py-5">
+    <h2 class="text-center mb-5">Our Menu</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="menu-item text-center">
+                <img src="appetizer.jpg" alt="Appetizer" class="img-fluid mb-3">
+                <h3>Appetizer</h3>
+                <p>Description of appetizer.</p>
+                <p class="price">$10</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item text-center">
+                <img src="main-course.jpg" alt="Main Course" class="img-fluid mb-3">
+                <h3>Main Course</h3>
+                <p>Description of main course.</p>
+                <p class="price">$20</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item text-center">
+                <img src="dessert.jpg" alt="Dessert" class="img-fluid mb-3">
+                <h3>Dessert</h3>
+                <p>Description of dessert.</p>
+                <p class="price">$8</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="about-section container py-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="restaurant.jpg" alt="Restaurant" class="img-fluid">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h2>About Us</h2>
+                <p>We are a family-owned restaurant that takes pride in our delicious meals and excellent customer service. Come visit us to enjoy an unforgettable dining experience.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section container py-5">
+    <h2 class="text-center mb-5">Contact Us</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>© 2024 Delicious Bites. All rights reserved.</p>
+    <div>
+        <a href="#" class="text-white mx-2">Facebook</a>
+        <a href="#" class="text-white mx-2">Twitter</a>
+        <a href="#" class="text-white mx-2">Instagram</a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
